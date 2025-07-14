@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="book.css" />
+  </head>
+  <body style="background-color: rgb(225 220 197);">
+    <header class="navbar">
+      <div class="head">
+        <div style="display: flex; align-items: center">
+          <img src="./images/mainlogo.jpeg" />
+          <h3 style="color: white">INTERNET ARCHIVE</h3>
+        </div>
+
+        <div class="left_navbar">
+          <button class="donate">Donate &#9829;</button>
+          <button class="language">English (en)</button>
+        </div>
+      </div>
+    </header>
+
+    <section style="display: flex; justify-content: center; background-color: rgb(225 220 197);">
+      <div class="second_navbar" style="width: 80%">
+        <div style="display: flex; align-items: center; cursor: pointer">
+          <img
+            style="height: 50px; width: 50px; transform: rotate(-5deg)"
+            src="./images/icon.png"
+            alt=""
+          />
+          <h2>LIBRARY</h2>
+        </div>
+
+        <a href="cart.html" class="mybooks"
+          ><h3 style="cursor: pointer">My Books</h3></a
+        >
+
+        <h4 class="dropdown_menu">
+          Browse&nbsp;&#11167;
+          <div class="click_menu janani">
+            <li>Subjects</li>
+            <li>Trending</li>
+            <li>Library&nbsp;Explorer</li>
+            <li>Lists</li>
+            <li>Collectionsk-12</li>
+            <li>k-12&nbsp;Student&nbsp;Library</li>
+            <li>Book&nbsp;Talks</li>
+            <li>Random&nbsp;Book</li>
+            <li>Advance&nbsp;Search</li>
+          </div>
+        </h4>
+        <div>
+          <input
+            style="
+              cursor: pointer;
+              width: 180px;
+              height: 30px;
+              border-radius: 5px;
+            "
+            placeholder="Find your Magical Gifts"
+            type="search"
+          />
+          <img
+            style="margin: 0 0 -8px -30px; cursor: pointer"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAd5JREFUSEu11cvLTWEUx/HPGxnIpSiXiZAwcIuSAQpFL2XqUgxIURhQBv4AMiEhDCgk5Q+Q0VsImSAlopTIgFwi9+uz6nl1HO/e5xnssya7zn7O+j5rrd9v7R5djp4u51cHmIB1WInZ+SJ3cAkX8LzkcgMBRuAcVtck+I2L2IRPdaB2wFDcwgx8xUkcxpOcZDJ2YQuG5LOL8L0K0g44iw14hhV4UPHHWbicLjAeB7G7BDAT9/Aj9Xk+ot91sRhX8A2T8GKgw60VHMF2HMWOkgHiPNYnyF7s7wR4jCm5//cLAUvQh2vpGRX9F60VfEQMeRB+FQJGpWpf4w1GdwK8x3AMQ8BKIs5+wCuM6QS4mw01L3ngdkn2pKQFSW03c5uWdQIcSKbZgxPYVgg4kzyyMbUnBLKzE2AqHuJnoUzDYFdz0sqq2412Ktv/KZYnCT6qqGRONtrY7PatJUaLM62r4guO41B2dryPKmNVbMbgnDRmEK6PYdfKtP/lyGygVTVzeJd20b7U0rWYm12/FPH7P1G3ridml/Yids/nrK4bOIa3CB+E0WKdhwpDSeGJv9HEBycg1zEdsQ0W4mU/oQlA5AqThaKm5fmcbhoQ+cal9b4mfz8abVGtJ5tqUSWk64A/OxFWGSrrSC8AAAAASUVORK5CYII="
+          />
+        </div>
+
+        <a href="./login.html" class="login"
+          ><h3 style="cursor: pointer">Login</h3></a
+        >
+
+        <button class="signup" style="cursor: pointer">Sign Up</button>
+        <div class="menu_bar">
+          <img
+            style="cursor: pointer"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAExJREFUSEtjZKAxYKSx+QyjFhAM4QEJov8EnYVfAYqjsfmA5hZQ6AFU7QMSBzT3Ac3jgOYW0DyIhr4FNI8Dmlsw9ONg1AcoIUDz0hQAbegGGXzv/l0AAAAASUVORK5CYII="
+          />
+          <div class="menu_barevent toggle_class">
+            <button class="button_x">X</button>
+            <h4>Browse</h4>
+            <li>Subjects</li>
+            <li>Trending</li>
+            <li>Library&nbsp;Explorer</li>
+            <li>Lists</li>
+            <li>Collectionsk-12</li>
+            <li>k-12&nbsp;Student&nbsp;Library</li>
+            <li>Book&nbsp;Talks</li>
+            <li>Random&nbsp;Book</li>
+            <li>Advance&nbsp;Search</li>
+            <hr />
+            <h4>Contribute</h4>
+            <li>Add a Book</li>
+            <li>Recent Community Edits</li>
+            <hr />
+            <h4>Resources</h4>
+            <li>Help & Support</li>
+            <li>Developer Center</li>
+            <li>Librarians Portal</li>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- 
+    <section
+      style="
+        height: 500px;
+        width: 80%;
+        background-color: rgb(225 220 197);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <img src="./images/cart.png" 
+          style="height: 300px; width: 300px;" />
+      <h1>YOUR CART IS EMPTY</h1>
+    </section> -->
+
+  <section style="width: 100%; display: flex; 
+    justify-content: center;
+    margin-bottom: 60px; 
+    margin-top: 30px;
+    background-color: rgb(225 220 197);">
+
+    <div style=" height: 500px; 
+      width: 80%; 
+      display: flex; 
+      background-color: white;
+      flex-direction: column; 
+      justify-content: center;
+      align-items: center; " >
+
+      <img style=" height: 200px; 
+        width: 200px; 
+        margin-bottom: 20px; " 
+        src="./images/cart.png">
+      <h1>Your Cart is Empty</h1>
+  </div>
+  </section>
+
+
+    <footer class="footer_section">
+      <img
+        class="footer_image"
+        src="./images/samples/panel  5 (1).png"
+        alt=""
+      />
+      <div class="before_class"></div>
+      <div class="footer_details">
+        <div class="footer_data">
+          <li>Internet Archive</li>
+          <li>ContactUs</li>
+          <li>Address</li>
+          <li>Privacy Policy</li>
+          <li>Terms & Conditions</li>
+
+          <div>
+            <img class="twitter" src="./images/x-twitter-brands (2).svg" />
+            <i class="bx bxl-github bx-tada"></i>
+          </div>
+        </div>
+      </div>
+      <input class="email" type="email" placeholder="Enter Your Email Id" />
+      <i class="bx bx-paper-plane plane"></i>
+    </footer>
+
+    <script src="./book.js"></script>
+  </body>
+</html>
